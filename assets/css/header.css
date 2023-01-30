@@ -1,0 +1,63 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.logo-header {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-name {
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list__link {
+    text-decoration: none;
+    color: var(--cinza-navegacao);
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 32px;
+    padding: 4px 0;
+}
+
+.login-div {
+
+}
+
+.login-button {
+    padding: 10px 18px;
+    border: none;
+    background-color: var(--branco);
+    color: var(--cinza-navegacao);
+    font-family: var(--font-padrao);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.signup-button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--vinho-botao);
+    color: var(--branco);
+    font-family: var(--font-padrao);
+    font-weight: 500;
+    font-size: 16px;
+}

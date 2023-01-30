@@ -1,0 +1,13 @@
+@import url("header.css");
+
+:root {
+    --branco: #FFFFFF;
+    --cinza-optimustech: #3A404E;
+    --cinza-navegacao: #667085;
+    --vinho-botao: #8E2424;
+    --font-padrao: 'Inter';
+}
+
+body {
+    font-family: var(--font-padrao);
+}
