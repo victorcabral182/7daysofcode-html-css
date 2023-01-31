@@ -1,0 +1,25 @@
+.banner__sobrenos {
+    text-align: center;
+    padding: 96px;
+}
+
+.banner-titulo {
+    color: var(--vinho-botao);
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+.banner-diferencial {
+    color: var(--preto-h1);
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+.banner-descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-navegacao);
+    margin: 0 25%;
+    line-height: 32px;
+}
