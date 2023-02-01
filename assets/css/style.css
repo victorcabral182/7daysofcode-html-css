@@ -1,13 +1,14 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("metricas.css");
+@import url("talentos.css");
 
 :root {
     --branco: #FFFFFF;
     --cinza-optimustech: #3A404E;
     --cinza-navegacao: #667085;
     --preto-h1: #101828;
-    --vinho-botao: #8E2424;
+    --vinho-botao: #8f2424;
     --font-padrao: 'Inter';
 }
 
