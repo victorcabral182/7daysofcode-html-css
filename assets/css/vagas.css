@@ -1,0 +1,48 @@
+/*
+--cinza-navegacao
+--preto-h1
+*/
+
+.vagas__container {
+    display: flex;
+    justify-content: center;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vagas__design-titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto-h1);
+    margin-bottom: 32px;
+}
+
+.titulo-margin {
+    margin-top: 40px;
+}
+
+.vagas__design-item {
+    border: 1px solid var(--cinza-borda);
+    border-radius: 16px;
+    width: 768px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.vagas__design-titulo-vaga {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-h1);
+    margin-bottom: 32px;
+}
+
+.vagas__design-descricao {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-navegacao);
+    margin-right: 24px;
+}

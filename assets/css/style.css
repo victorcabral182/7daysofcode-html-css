@@ -2,6 +2,7 @@
 @import url("banner.css");
 @import url("metricas.css");
 @import url("talentos.css");
+@import url("vagas.css");
 
 :root {
     --branco: #FFFFFF;
@@ -9,6 +10,7 @@
     --cinza-navegacao: #667085;
     --preto-h1: #101828;
     --vinho-botao: #8f2424;
+    --cinza-borda: #EAECF0;
     --font-padrao: 'Inter';
 }
 
