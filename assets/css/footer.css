@@ -1,0 +1,58 @@
+.footer__container {
+    background: var(--cinza-footer);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.footer-titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto-h1);
+    margin-bottom: 20px;
+}
+
+.footer-texto-1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-navegacao);
+    margin-bottom: 40px;
+}
+
+.footer__input-email {
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-borda);
+    margin-right: 16px;
+    padding-left: 12px;
+}
+
+.footer__input-email::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-navegacao);
+}
+
+.footer__input-button {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--branco);
+    height: 48px;
+    width: 116px;
+    border: none;
+    border-radius: 8px;
+    background: var(--vinho-texto);
+}
+
+.input_div {
+    margin-bottom: 32px;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-copyright);
+}

@@ -4,6 +4,7 @@
 @import url("talentos.css");
 @import url("vagas.css");
 @import url("depoimentos.css");
+@import url("footer.css");
 
 :root {
     --branco: #FFFFFF;
@@ -14,6 +15,8 @@
     --vinho-texto: #8E2424;
     --vermelho-opaco: #c319190a;
     --cinza-borda: #EAECF0;
+    --cinza-footer: #F9FAFB;
+    --cinza-copyright: #98A2B3;
     --font-padrao: 'Inter';
 }
 
