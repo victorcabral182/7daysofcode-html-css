@@ -1,0 +1,49 @@
+.depoimentos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--vermelho-opaco);
+    margin: 96px 80px 96px 80px;
+    padding: 64px;
+}
+
+.depoimentos__texto-1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho-texto);
+    margin-bottom: 16px;
+}
+
+.depoimentos__texto-2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto-h1);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.depoimentos__container-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.depoimentos__avatar {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+.depoimentos__nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto-h1);
+    margin-bottom: 4px;
+}
+
+.depoimentos__cargo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-navegacao);
+}

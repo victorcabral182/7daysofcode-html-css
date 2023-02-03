@@ -3,6 +3,7 @@
 @import url("metricas.css");
 @import url("talentos.css");
 @import url("vagas.css");
+@import url("depoimentos.css");
 
 :root {
     --branco: #FFFFFF;
@@ -10,6 +11,8 @@
     --cinza-navegacao: #667085;
     --preto-h1: #101828;
     --vinho-botao: #8f2424;
+    --vinho-texto: #8E2424;
+    --vermelho-opaco: #c319190a;
     --cinza-borda: #EAECF0;
     --font-padrao: 'Inter';
 }
