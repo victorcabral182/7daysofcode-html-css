@@ -32,3 +32,21 @@
     width: 100%;
     padding: 4em 0;
 }
+
+@media screen and (max-width: 400px) {
+    .talentos__container {
+        margin: 0;
+        text-align: center;
+    }
+    .talentos-objetivo {
+        font-size: 20px;
+    }
+    .talentos-descricao {
+        padding: 0 64px;
+        font-size: 14px;
+    }
+    .talentos-imagem {
+        width: 100vw;
+        padding: 16px 0;
+    }
+}

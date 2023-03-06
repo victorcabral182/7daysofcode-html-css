@@ -27,3 +27,25 @@
     font-weight: 400;
     color: var(--cinza-navegacao);
 }
+
+@media screen and (max-width: 400px) {
+    .metricas__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100vw;
+        margin: 0 0 16px 0;
+    }
+    .box-metricas {
+        width: auto;
+        margin: 24px;
+    }
+    .metrica {
+        font-size: 32px;
+    }
+    .titulo-metrica {
+        font-size: 14px;
+    }
+    .descricao-metrica {
+        font-size: 12px;
+    }
+}

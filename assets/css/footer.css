@@ -1,9 +1,9 @@
 .footer__container {
-    background: var(--cinza-footer);
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    background: var(--cinza-footer);
     padding: 96px 0;
 }
 
@@ -55,4 +55,32 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--cinza-copyright);
+}
+
+@media screen and (max-width: 400px) {
+    .footer__container {
+        justify-content: center;
+        width: 100vw;
+        padding: 32px 0 0 0;
+        margin: 0;
+    }
+    .footer-titulo {
+        font-size: 20px;
+        padding: 0;
+    }
+    .footer-texto-1 {
+        font-size: 16px;
+        padding: 0 32px;
+        margin-bottom: 20px;
+    }
+    .footer__input-email {
+        width: auto;
+    }
+    .input_div {
+        margin: 0;
+    }
+    .copyright {
+        padding: 16px 0;
+        font-size: 12px;
+    }
 }
